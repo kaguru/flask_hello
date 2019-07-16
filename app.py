@@ -14,5 +14,10 @@ def age():
     return 'I am 36 years Old'
 
 
+@app.route('/location')
+def age():
+    return 'I Live at Muthiga'
+
+
 if __name__ == '__main__':
     app.run()
