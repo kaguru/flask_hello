@@ -14,5 +14,10 @@ def age():
     return 'I am 36 years Old'
 
 
+@app.route('/gender')
+def age():
+    return 'I am a Male'
+
+
 if __name__ == '__main__':
     app.run()
